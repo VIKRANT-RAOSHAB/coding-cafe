@@ -1,0 +1,163 @@
+Microsoft Windows [Version 10.0.26200.9278]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Lenovo>wsl
+lenovo@VIKRANT:/mnt/c/Users/Lenovo$ pwd
+/mnt/c/Users/Lenovo
+lenovo@VIKRANT:/mnt/c/Users/Lenovo$ ls
+ -1.14-windows.xml
+ 'ANOCAONDA CALC'
+ AppData
+ 'Application Data'
+ Contacts
+ Cookies
+ CrossDevice
+ 'DaVinci Resolve Media'
+ Desktop
+ Documents
+ Downloads
+ Favorites
+ Links
+ 'Local Settings'
+ 'MinGW Installer.lnk'
+ Music
+ 'My Documents'
+ NTUSER.DAT
+ NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TM.blf
+ NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TM.blf.cnpf
+ NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000001.regtrans-ms.cnpf
+ NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000002.regtrans-ms
+ NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000002.regtrans-ms.cnpf
+ NetHood
+ OneDrive
+ 'OneDrive - Plaksha University'
+ OneDriveCloudTemp
+ Pictures
+ PrintHood
+ Recent
+ 'Saved Games'
+ Searches
+ SendTo
+ 'Start Menu'
+ Templates
+ Untitled.ipynb
+ Videos
+ anaconda3
+ desktop.ini
+ mingw-get-setup.exe
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ untitled.py
+lenovo@VIKRANT:/mnt/c/Users/Lenovo$ /mnt/c/Users/Lenovo/OneDrive/Desktop/coding\ cafe/week02
+-bash: /mnt/c/Users/Lenovo/OneDrive/Desktop/coding cafe/week02: Is a directory
+lenovo@VIKRANT:/mnt/c/Users/Lenovo$ cd "/mnt/c/Users/Lenovo/OneDrive/Desktop/coding cafe/week02"
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop/coding cafe/week02$ cd "/mnt/c/Users/Lenovo/OneDrive/Desktop/"
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$ ls
+ C++                        'Foundations of Physical World'   'coding cafe'   sora-data-files-export-1.zip
+ 'Computational Thinking'   'adv calc'                        desktop.ini     trash
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$ ls -a
+'
+ .    C++                        'Foundations of Physical World'   'coding cafe'   sora-data-files-export-1.zip
+ ..   'Computational Thinking'   'adv calc'                        desktop.ini     trash
+> ls -a
+ls -l
+
+>
+> ls -l
+wsl
+> wsl
+> '
+
+ls -a
+ls -l
+
+
+
+ls -l
+wsl
+wsl
+: command not found
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$ ls -l
+
+total 20832
+drwxrwxrwx 1 lenovo lenovo     4096 Aug 24 17:52  C++
+drwxrwxrwx 1 lenovo lenovo     4096 Aug 28 05:06  'Computational Thinking'
+drwxrwxrwx 1 lenovo lenovo     4096 Aug 29 18:19  'Foundations of Physical World'
+drwxrwxrwx 1 lenovo lenovo     4096 Aug 23 13:08  'adv calc'
+drwxrwxrwx 1 lenovo lenovo     4096 Aug 30 05:43  'coding cafe'
+-rwxrwxrwx 1 lenovo lenovo      282 Aug 25 08:37  desktop.ini
+-rwxrwxrwx 1 lenovo lenovo 21330370 Aug  7 14:56  sora-data-files-export-1.zip
+drwxrwxrwx 1 lenovo lenovo     4096 Aug 29 19:41  trash
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$ rm old-readme.md
+rm: cannot remove 'old-readme.md': No such file or directory
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$ cp README.md README-backup.md
+cp: cannot stat 'README.md': No such file or directory
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$ cp README.md README-backup.md
+cp: cannot stat 'README.md': No such file or directory
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$  cd "/mnt/c/Users/Lenovo/OneDrive/Desktop/coding cafe/week02"
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop/coding cafe/week02$  cd "/mnt/c/Users/Lenovo/OneDrive/Desktop/coding cafe/week02"
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop/coding cafe/week02$ cp README.md README-backup.md
+cp: cannot stat 'README.md': No such file or directory
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop/coding cafe/week02$ echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python314/Scripts/:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python314/:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Lenovo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Lenovo/AppData/Local/Python/bin:/snap/bin
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop/coding cafe/week02$ which python3
+/usr/bin/python3
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop/coding cafe/week02$ which pip
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop/coding cafe/week02$ which ls
+
+/usr/bin/ls
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop/coding cafe/week02$ pyton3
+
+Command 'pyton3' not found, did you mean:
+  command 'python3' from deb python3 (3.14.3-0ubuntu2)
+Try: sudo apt install <deb name>
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop/coding cafe/week02$ cd ~/coding-cafe
+-bash: cd: /home/lenovo/coding-cafe: No such file or directory
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop/coding cafe/week02$ cd "/mnt/c/Users/Lenovo/OneDrive/Desktop/"
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$ cd ~/coding-cafe
+-bash: cd: /home/lenovo/coding-cafe: No such file or directory
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$ cd ~/coding cafe
+-bash: cd: too many arguments
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$ cd ~/coding cafe
+-bash: cd: too many arguments
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$ ls
+ C++                        'Foundations of Physical World'   'coding cafe'   sora-data-files-export-1.zip
+ 'Computational Thinking'   'adv calc'                        desktop.ini     trash
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$ ls -a
+
+ .    C++                        'Foundations of Physical World'   'coding cafe'   sora-data-files-export-1.zip
+ ..   'Computational Thinking'   'adv calc'                        desktop.ini     trash
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$ python3 -m venv .venv
+
+The virtual environment was not created successfully because ensurepip is not
+available.  On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
+
+    apt install python3.14-venv
+
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
+
+Failing command: /mnt/c/Users/Lenovo/OneDrive/Desktop/.venv/bin/python3
+
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$ .venv\Scripts\activate.bat
+.venvScriptsactivate.bat: command not found
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$ which python3
+
+/usr/bin/python3
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$ pip list
+Command 'pip' not found, but can be installed with:
+sudo apt install python3-pip
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$ pip install requests
+Command 'pip' not found, but can be installed with:
+sudo apt install python3-pip
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$ man ls
+
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$ man ls
+
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$ history > week02/lab01-log.txt
+
+-bash: week02/lab01-log.txt: No such file or directory
+lenovo@VIKRANT:/mnt/c/Users/Lenovo/OneDrive/Desktop$
